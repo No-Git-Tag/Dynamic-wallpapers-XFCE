@@ -31,7 +31,7 @@ mkdir -p "$AUTODIR"
 echo "[Desktop Entry]
 Type=Application
 Name= Timepaper (XFCE)
-Exec=bash -c $SCRIPT_PATH
+Exec=bash -c "$SCRIPT_PATH"
 NoDisplay=false
 Comment=Changes wallpaper based on time of day" > "$AUTOFILE"
 
