@@ -12,13 +12,13 @@ SCRIPT="timepaper.sh"
 SCRIPT_PATH="$INSTALL/$SCRIPT"
 
 if [ ! -f "$SCRIPT" ]; then
-	echo "$SCRIPT is missing from the current directory
+	echo "$SCRIPT is missing from the current directory"
 	exit 1
 fi
 
 mkdir "$HOME/Pictures/Timepaper/"
 TP="$HOME/Pictures/Timepaper/"
-mkdir "$TP/Morning $TP/Day $TP/Evening $TP/Night"
+mkdir "$TP/Morning" "$TP/Day" "$TP/Evening" "$TP/Night"
 cp "$SCRIPT" "$INSTALL"
 chmod +x "$SCRIPT_PATH"
 echo "$SCRIPT has been copied to $INSTALL and made executable."
