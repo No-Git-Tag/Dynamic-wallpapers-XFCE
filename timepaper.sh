@@ -29,7 +29,7 @@ change_wallpaper() {
         DIR3=""
     fi
 
-    # Set the wallpaper for workspaces 3-6
+    # Set wallpaper for all workspaces
     for WORKSPACE in {0..6}; do
     
     	WALLPAPERS=$(find "$DIR1" "$DIR2" "$DIR3" -type f | shuf -n 1)
