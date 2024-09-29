@@ -35,3 +35,17 @@ To manually run the script post-installation, you can execute:
 ```
 bash ~/timepaper.sh
 ```
+
+## Modifications (examples)
+
+Exclude certain workspaces by editing line 33
+```
+    for WORKSPACE in {0..6}; do
+```
+to
+```
+    for WORKSPACE in {5..12}; do
+```
+Now it will apply to workspaced 4-12 (workspaced 1-3 are unmodified)
+
+
