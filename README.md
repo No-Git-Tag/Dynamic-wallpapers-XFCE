@@ -1,4 +1,5 @@
 # Timepaper (XFCE)
+A bash script that changes desktop wallpaper based on time of day
 
 ### Explanation of timepaper.sh
 1. Determine time
