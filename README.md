@@ -15,7 +15,7 @@ XFCE. Script is designed for the XFCE environment
 
 1. Clone the repo by running
 ```
-git clone https://github.com/No-Git-Tag/Dynamic-wallpapers-XFCE
+git clone https://github.com/No-Git-Tag/Dynamic-wallpapers-XFCE && cd Dynamic-wallpapers-XFCE/
 ```
 2. Run install.sh with
     ```
