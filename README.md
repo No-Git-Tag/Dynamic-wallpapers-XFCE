@@ -47,6 +47,6 @@ to
 ```
     for WORKSPACE in {5..12}; do
 ```
-Now it will apply to workspaced 4-12 (workspaced 1-3 are unmodified)
+Now it will apply to workspaced 4-12 (workspaces 1-3 are unmodified)
 
 
