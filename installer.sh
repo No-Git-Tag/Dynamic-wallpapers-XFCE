@@ -35,6 +35,6 @@ Exec=bash -c "$SCRIPT_PATH"
 NoDisplay=false
 Comment=Changes wallpaper based on time of day" > "$AUTOFILE"
 
-echo "Autostart entry created at "$AUTOFILE"
+echo "Autostart entry created at "$AUTOFILE""
 
 echo "Installation complete. Script should run at login"
